@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active {
+  border-bottom: 3px solid black;
+}
+
+header {
+  /* min-height: calc(100vh-52px); */
+  min-height: calc(100vh - 52px);
+  background-color: blue !important;
+  background-image: url("../img/hero.jpg");
+}
+
+.main {
+  min-height: 800px;
+}
